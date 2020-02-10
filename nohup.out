@@ -1,0 +1,34 @@
+ * Serving Flask app "." (lazy loading)
+ * Environment: development
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/flask/cli.py", line 966, in main
+    cli.main(prog_name="python -m flask" if as_module else None)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/flask/cli.py", line 586, in main
+    return super(FlaskGroup, self).main(*args, **kwargs)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/flask/cli.py", line 860, in run_command
+    extra_files=extra_files,
+  File "/root/.local/share/virtualenvs/root-BuDEOXnJ/lib/python3.7/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "." (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-232-662
