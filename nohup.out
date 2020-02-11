@@ -32,3 +32,16 @@ OSError: [Errno 98] Address already in use
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 273-232-662
+196.52.43.56 - - [11/Feb/2020 00:34:09] "[33mGET / HTTP/1.0[0m" 404 -
+122.228.19.80 - - [11/Feb/2020 01:29:13] "[33mGET / HTTP/1.1[0m" 404 -
+ * Serving Flask app "." (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:3000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-232-662
+ * Detected change in '/root/projects/notes/__init__.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 273-232-662
